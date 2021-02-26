@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #dddddd;
+}
+
+body {
+  width: 100%;
+  font-family: sans-serif;
+  display: flex;
+}
+
+body .side-bar {
+  width: 25%;
+  background: #424242;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+}
+
+body .side-bar a {
+  text-decoration: none;
+  color: #959595;
+}
+
+body .side-bar h1 {
+  font-size: 2.5rem;
+  margin: 1rem 0;
+}
+
+body .side-bar p {
+  width: 90%;
+  padding-bottom: 0.6rem;
+}
+
+body .side-bar p,
+body .side-bar p > * {
+  font-size: 1.2rem;
+}
+
+body .side-bar .inline-bold {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+body .side-bar .profile-picture {
+  width: 200px;
+  height: 200px;
+  background: url("./images/53267056_586448601829952_8020438936620892160_n.jpg");
+  background-size: cover;
+  border-radius: 50%;
+}
+
+body .main {
+  width: 75%;
+  background: #3a3a3a;
+  position: relative;
+  left: 25%;
+}
+
+body .main .personal-information {
+  padding: 2rem 5rem;
+}
+
+body .main .personal-information .title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+body .main .personal-information .inline-bold {
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: #e9e9e9;
+}
+
+body .main .personal-information .property {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+body .main .personal-information ul {
+  list-style: none;
+}
+
+body .main .personal-information li {
+  margin-bottom: .5rem;
+}
+/*# sourceMappingURL=style.css.map */
